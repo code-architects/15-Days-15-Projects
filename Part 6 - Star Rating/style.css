@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #2C394B;
+}
+.container {
+    background: #161120;
+    padding: 20px 28px;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+.star-container {
+    direction: rtl;
+    /* Reverse the position od stars */
+}
+button {
+    color: #fff;
+    font-size: 32px;
+    margin: 4px;
+    background: transparent;
+    border: none;
+    transition: 0.2s;
+}
+#rating {
+    color: #fff;
+    margin-top: 12px;
+    font-size: 20px;
+    text-align: center;
+}
+.container button:hover {
+    color: rgb(255, 238, 0);
+}
+.star1:hover ~ .star {
+    color:rgb(255, 238, 0);
+}
+.star2:hover ~ .star {
+    color: rgb(255, 238, 0);
+}
+.star3:hover ~ .star {
+    color: rgb(255, 238, 0);
+}
+.star4:hover ~ .star {
+    color: rgb(255, 238, 0);
+}
+.star5:hover ~ .star {
+    color: rgb(255, 238, 0);
+}
+.hovered {
+    color: rgb(255, 238, 0);
+}
+.hovered ~ .star {
+    color: rgb(255, 238, 0);
+}

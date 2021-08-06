@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Star Rating | @code.architects</title>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+	<link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
+	<link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+	<div class="container">
+		<div class="star-container">
+			<button class="star star5" data-value="5" onclick="rate(this)"><i class="fas fa-star"></i></button>
+			<button class="star star4" data-value="4" onclick="rate(this)"><i class="fas fa-star"></i></button>
+			<button class="star star3" data-value="3" onclick="rate(this)"><i class="fas fa-star"></i></button>
+			<button class="star star2" data-value="2" onclick="rate(this)"><i class="fas fa-star"></i></button>
+			<button class="star star1" data-value="1" onclick="rate(this)"><i class="fas fa-star"></i></button>
+		</div>
+		<p id="rating">Rate Us :)</p>
+	</div>
+
+	<script src="./script.js"></script>
+</body>
+
+</html>
