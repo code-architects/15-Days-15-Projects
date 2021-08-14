@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="@code.architects">
+    <title>Google UI Clone</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <ul class="links">
+                <li class="headericon">Images</li>
+                <li class="headericon">
+                    <img src="https://picsum.photos/32/32" class="profilepic" />
+                </li>
+            </ul>
+        </header>
+        <main class="searchcontainer">
+            <img src="./img/google_logo.png" class="logo" />
+            <form onsubmit="return false" id="searchform">
+                <input type="search" class="search" placeholder="Search something..." />
+                <div class="searchbtncontainer">
+                    <button type="submit">Google Search</button>
+                    <button onclick="alert('Created by @code.architects')" type="reset">I'm feeling lucky</button>
+                </div>
+            </form>
+            <div class="langoffer">
+                <span>Languages Offered -</span>
+                <a href="#">हिन्दी</a>
+                <a href="#">বাংলা</a>
+                <a href="#">ગુજરાતી</a>
+                <a href="#">ਪੰਜਾਬੀ</a>
+                <a href="#">मराठी</a>
+            </div>
+        </main>
+        <footer class="footer">
+            <ul class="links">
+                <li class="link">Advertising</li>
+                <li class="link">Business</li>
+                <li class="link">About</li>
+            </ul>
+        </footer>
+    </div>
+    <script src="./script/main.js"></script>
+</body>
+
+</html>

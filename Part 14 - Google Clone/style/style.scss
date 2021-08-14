@@ -1,0 +1,110 @@
+$shadowdark: rgba(0,0,0,0.1);
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    .header {
+        display: flex;
+        justify-content: flex-end;
+        font-size: 15px;
+        .links .headericon {
+            vertical-align: middle;
+            display: inline-block;
+            margin: 14px;
+            font-weight: 300;
+            &:hover {
+                text-decoration: underline;
+            }
+            .profilepic {
+                border-radius: 50%;
+                margin-right: 20px;
+            }
+        } 
+    }
+    .searchcontainer {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px;
+        .logo {
+            max-width: 300px;
+        }
+        form {
+            max-width: 550px;
+            margin-top: 25px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            .search {
+                width: 100%;
+                border-radius: 24px;
+                padding: 14px 20px;
+                border: 1px solid $shadowdark;
+                outline: 0;
+                transition: 0.1s;
+                &:focus, &:active {
+                    box-shadow: 0 0 3px $shadowdark;
+                }
+            }
+            .searchbtncontainer {
+                margin-top: 20px;
+                display: grid;
+                grid-template-columns: 150px 150px;
+                grid-gap: 16px;
+                button {
+                    padding: 10px 8px;
+                    font-size: 14px;
+                    border: 0;
+                    border-radius: 4px;
+                    background: #F3F3F3;
+                    cursor: pointer;
+                    outline: 0;
+                    color: #555555;
+                    transition: 0.1s;
+                    &:hover {
+                        background: #CACACA;
+                        color: #232323;
+                        box-shadow: 0 4px 8px $shadowdark;
+                    }
+                }
+            }
+        }
+        .langoffer {
+            margin-top: 40px;
+            font-size: 0.95em;
+            a {
+                text-decoration: none;
+                margin: 4px;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+    .footer {
+        background: #F9F9F9;
+        .links {
+            list-style: none;
+            .link {
+                font-size: 0.8em;
+                display: inline-block;
+                margin: 20px;
+                color: #333;
+                cursor: pointer;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
