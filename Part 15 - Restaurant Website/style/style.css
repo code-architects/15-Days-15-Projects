@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+}
+
+header {
+  background: #0c0b0b;
+  color: #fff;
+}
+
+.navbar {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar .title {
+  font-family: 'Pacifico', cursive;
+  color: #ffd900;
+  font-size: 32px;
+  text-decoration: none;
+}
+
+.navbar .nav-links {
+  list-style: none;
+}
+
+.navbar .nav-links .nav-link {
+  display: inline-block;
+  padding: 8px 12px;
+  margin: 4px;
+}
+
+.navbar .nav-links .active {
+  background: #ff3c00;
+}
+
+.bigimage {
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url("../image/header.jpg");
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../image/header.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.bigimage .title {
+  font-size: 60px;
+  color: #ff3c00;
+}
+
+.bigimage .tagline {
+  font-size: 20px;
+  margin-top: 4px;
+}
+
+.bigimage2 {
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url("../image/header2.jpg");
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../image/header2.jpg");
+  color: #FFF;
+}
+
+.about {
+  padding: 40px 0;
+  background: #e0e0e0;
+}
+
+.about .abouttitle, .about .aboutp {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about .aboutp {
+  margin-top: 20px;
+}
+
+.about .cards {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 60px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.about .cards .card {
+  background: white;
+}
+
+.about .cards .card img {
+  width: 100%;
+}
+
+.about .cards .card .description {
+  color: #333;
+  padding: 12px;
+}
+
+.contactcontainer {
+  background: #0c0b0b;
+  color: #FFF;
+  padding: 40px 0;
+}
+
+.contactcontainer .contactgrid {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+}
+
+.contactcontainer .contactgrid .contactform .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contactcontainer .contactgrid .contactform .contact label {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #BBB;
+}
+
+.contactcontainer .contactgrid .contactform .contact input, .contactcontainer .contactgrid .contactform .contact textarea {
+  padding: 8px;
+  border: 0;
+  background: #202020;
+}
+
+.contactcontainer .contactgrid .contactform .contact input::-webkit-input-placeholder, .contactcontainer .contactgrid .contactform .contact textarea::-webkit-input-placeholder {
+  color: #646464;
+}
+
+.contactcontainer .contactgrid .contactform .contact input:-ms-input-placeholder, .contactcontainer .contactgrid .contactform .contact textarea:-ms-input-placeholder {
+  color: #646464;
+}
+
+.contactcontainer .contactgrid .contactform .contact input::-ms-input-placeholder, .contactcontainer .contactgrid .contactform .contact textarea::-ms-input-placeholder {
+  color: #646464;
+}
+
+.contactcontainer .contactgrid .contactform .contact input::placeholder, .contactcontainer .contactgrid .contactform .contact textarea::placeholder {
+  color: #646464;
+}
+
+.contactcontainer .contactgrid .contactform .contact button {
+  margin-top: 20px;
+  border: 0;
+  padding: 8px;
+  background: #ffd900;
+  border-radius: 4px;
+}
+
+.contactcontainer .contactgrid .address {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=style.css.map */

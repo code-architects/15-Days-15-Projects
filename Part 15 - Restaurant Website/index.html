@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="titlecontainer">
+                <a href="#" class="title">ROASTUP</a>
+            </div>
+            <ul class="nav-links">
+                <li class="nav-link active">Home</li>
+                <li class="nav-link">Services</li>
+                <li class="nav-link">Gallery</li>
+                <li class="nav-link">Pricing</li>
+                <li class="nav-link">Contact</li>
+            </ul>
+        </nav>
+        <div class="bigimage">
+            <h1 class="title">ROASTUP</h1>
+            <p class="tagline">A taste of home</p>
+        </div>
+    </header>
+    <main class="content">
+        <section class="about">
+            <h2 class="abouttitle">About</h2>
+            <p class="aboutp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, consequuntur sed earum,
+                amet excepturi ad expedita adipisci magni ipsa rem sint similique, assumenda provident veniam
+                architecto? Excepturi, accusantium. Voluptates, similique.</p>
+            <div class="cards">
+                <div class="card" data-aos="fade-right">
+                    <img src="./image/card1.jpg" class="card-image" />
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum adipisci
+                        dolores repellendus error architecto dolorum
+                    </p>
+                </div>
+                <div class="card" data-aos="fade-up">
+                    <img src="./image/card2.jpg" class="card-image" />
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum adipisci
+                        dolores repellendus error architecto dolorum
+                    </p>
+                </div>
+                <div class="card" data-aos="fade-left">
+                    <img src="./image/card3.jpg" class="card-image" />
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum adipisci
+                        dolores repellendus error architecto dolorum
+                    </p>
+                </div>
+                <div class="card" data-aos="fade-right">
+                    <img src="./image/card4.jpg" class="card-image" />
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum adipisci
+                        dolores repellendus error architecto dolorum
+                    </p>
+                </div>
+                <div class="card" data-aos="fade-up">
+                    <img src="./image/card1.jpg" class="card-image" />
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum adipisci
+                        dolores repellendus error architecto dolorum
+                    </p>
+                </div>
+                <div class="card" data-aos="fade-left">
+                    <img src="./image/card2.jpg" class="card-image" />
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum adipisci
+                        dolores repellendus error architecto dolorum
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="bigimage bigimage2">
+            <h1 class="title" data-aos="zoom-in">😋🍴</h1>
+            <p class="tagline" data-aos="zoom-in-up">We make the ordinary, extraordinary.</p>
+        </section>
+    </main>
+    <footer class="contactcontainer">
+        <div class="contactgrid">
+            <div class="contactform">
+                <h2 class="formtitle">Contact US</h2>
+                <form class="contact" data-aos="zoom-out">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="John Doe" />
+                    <label for="email">Email</label>
+                    <input type="text" id="email" placeholder="abc@xyz.com" />
+                    <label for="message">Message</label>
+                    <textarea id="message" placeholder="Your message here..."></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            <div class="address" data-aos="zoom-out">
+                <p>XXX, XYZ Street, ABC Road<br />XXXXX, State</p>
+                <p>+XX XXXXXXXXXX</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
